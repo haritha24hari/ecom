@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+</head>
+<body>
+    <h1>REGISTER USER</h1>
+    <form method="POST" action="">
+        <label for="">Full Name:</label>
+        <input placeholder="Enter Name" name="name" type="text"><br><br>
+        <label for="">Mobile Number:</label>
+        <input placeholder="Enter Mobile Number" name="mobile" type="number"><br><br>
+        <label for="">Email:</label>
+        <input placeholder="Enter Email" name="email" type="email"><br><br>
+        <label for="">Address:</label>
+        <input placeholder="Enter Address" name="address" type="text"><br><br>
+        <label for="">Password:</label>
+        <input placeholder="Enter Password" name="password" type="password"><br><br>
+        <button class="form-button">Register</button>
+    </form>
+</body>
+</html>
